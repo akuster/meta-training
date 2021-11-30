@@ -1,4 +1,5 @@
-# meta-training
+# This is not the offical meta-training repo
+# Just trying to capture material used in the summit
 
 vi ~/.ssh/config
 
