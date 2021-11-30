@@ -1,0 +1,23 @@
+From 467b9feb51ecb863889db2b845f3bf90f18d799b Mon Sep 17 00:00:00 2001
+From: Armin Kuster <akuster@mvista.com>
+Date: Tue, 30 Nov 2021 14:53:07 +0000
+Subject: [PATCH] bc: ak changes
+
+Signed-off-by: Armin Kuster <akuster@mvista.com>
+---
+ bc/main.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/bc/main.c b/bc/main.c
+index 012075c..ea40f22 100644
+--- a/bc/main.c
++++ b/bc/main.c
+@@ -66,7 +66,7 @@ static struct option long_options[] =
+ static void
+ usage (const char *progname)
+ {
+-  printf ("usage: %s [options] [file ...]\n%s%s%s%s%s%s%s", progname,
++  printf ("usage: %s [opions] [file ...]\n%s%s%s%s%s%s%s", progname,
+           "  -h  --help         print this usage and exit\n",
+ 	  "  -i  --interactive  force interactive mode\n",
+ 	  "  -l  --mathlib      use the predefined math routines\n",

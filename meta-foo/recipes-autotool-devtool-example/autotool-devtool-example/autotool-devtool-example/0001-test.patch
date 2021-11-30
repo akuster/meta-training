@@ -1,0 +1,23 @@
+From 5c38d2c51a627f108b7405456cea234c155fb855 Mon Sep 17 00:00:00 2001
+From: Armin Kuster <akuster@mvista.com>
+Date: Tue, 30 Nov 2021 14:38:55 +0000
+Subject: [PATCH] test
+
+Signed-off-by: Armin Kuster <akuster@mvista.com>
+---
+ src/autotool-devtool-example.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/autotool-devtool-example.c b/src/autotool-devtool-example.c
+index b94a839..70c60e8 100644
+--- a/src/autotool-devtool-example.c
++++ b/src/autotool-devtool-example.c
+@@ -10,7 +10,7 @@
+ int
+ main (void)
+ {
+-	printf("Hello, world!\n");
++	printf("Hello, devtool!\n");
+ 	printf("version: %s\n", VERSION);
+ 	lib_function();
+ 
