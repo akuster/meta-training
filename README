@@ -1,0 +1,48 @@
+# meta-training
+===============
+
+This layer provided examples and documents for training purposes.
+The main branch is for keeping traing labs and eamples build 
+and preped for the next class or yocot/OE summits.
+
+The branching will align with a Summit or training slot.
+
+Prep
+================
+
+Many of the examples with run QEMU. One method is via slirp. Please configure
+your local account ssh in the following:
+
+vi ~/.ssh/config
+
+Host qemu
+    User root
+    Hostname localhost
+    Port 2222
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+
+then is just a matter of running qemu like:
+
+runqemu <machine> slirp <extra options>
+
+
+Maintenance
+================
+
+Send pull requests, patches, comments or questions to yocto@lists.yoctoproject.org
+
+tmp Maintainer: Armin Kuster <akuster808@gmail.com 
+
+When sending single patches, please using something like:
+$ git send-email -1 -M --to yocto@lists.yoctoproject.org --subject-prefix='meta-training][PATCH'
+
+
+License
+================
+
+All metadata is MIT licensed unless otherwise stated. Source code included
+in tree for individual recipes is under the LICENSE stated in each recipe
+(.bb file) unless otherwise stated.
+
+
